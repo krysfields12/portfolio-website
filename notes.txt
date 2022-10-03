@@ -1,0 +1,21 @@
+git init - to intialize repo
+npm init - to make project a node project
+
+What is node? 
+- Open-source, cross-platform runtime environment that allows developers create all kinds of server-side tools and applications
+    in Javacript.
+- The runtime is intended for use OUTSIDE of the browser context
+    ** allows for you to write a J program that runs directly on a computer, NOT through
+         a web browser on a computer, but directly on a computer and can access anything on that machine as long it has permissions
+- You can use Node.js to create a simple web server using Node HTTP package.  
+
+Building a server with Node
+- Programs we write that intend to receive and respond to HTTP messsages are called servers
+- Node.js provides several low-level tools for building servers
+- Abtracts HTTP request and responses into nice objects that have useful methods.
+
+HTTP
+- Hypertext Transfer Protocol(HTTP) is the foundation of any data exchange on the web
+- A protocol for transmitting resources (e.g. HTML, plain text, images, JSON) 
+    ** Specifically, a client-server protocol, which means requests are initiated by the recipient, usually
+        the web browser.
